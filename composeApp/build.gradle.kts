@@ -55,6 +55,9 @@ kotlin {
             implementation(libs.androidx.navigation.composee)
             implementation(libs.kotlinx.serialization.json)
             implementation(libs.kotlinx.datetime)
+            implementation("com.russhwolf:multiplatform-settings-no-arg:1.3.0")
+            implementation("com.russhwolf:multiplatform-settings-serialization:1.3.0")
+            implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
         }
 
         commonTest.dependencies {
